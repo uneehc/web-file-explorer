@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.explorer {
+  .file{
+    padding-left: 20px;
+    .file-name{
+      vertical-align: super;
+    }
+    .logo{
+      vertical-align: super;
+    }
+  }
+  .selected-file{
+    color: #008080;
+    background-color: #f1f1f1;
+  }
+  .menu{
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    z-index: 1000;
+    .menu-item{
+      border-bottom: 1px solid black;
+    }
+    .menu-item:last-child  {
+      border-bottom: none;
+    }
+  }
+}
